@@ -1,0 +1,19 @@
+# Ignore data folders
+SoLEXS_data/
+HeL1OS_data/
+pipeline/outputs/
+
+# Ignore user manuals and PDFs
+*UserManual.pdf
+*.pdf
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and Gemini configuration folders
+.vscode/
+.idea/
+.gemini/
+.system_generated/
