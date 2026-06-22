@@ -10,10 +10,6 @@ An end-to-end space weather data processing and machine learning pipeline for so
 BAH/
 ├── README.md                  # Project overview and execution guide (this file)
 ├── DATA_EXTRACTION.md         # Detailed telemetry extraction guide (no code)
-├── GOES(PRIMARY).md           # Raw GOES-18 SXR/HXR flux data
-├── GOES(SECONDARY).md         # Raw GOES-19 SXR/HXR flux data
-├── SoLEXS_data/               # Raw SoLEXS SDD2 light curve & GTI FITS files (ignored by Git)
-├── HeL1OS_data/               # Raw HEL1OS CdTe, CZT, & HK FITS files (ignored by Git)
 └── pipeline/                  # Pipeline source scripts
     ├── config.py              # Configuration thresholds and parameters
     ├── goes_parser.py         # GOES parser & Ground Truth generator
